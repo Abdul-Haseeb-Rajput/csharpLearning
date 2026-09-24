@@ -1,0 +1,104 @@
+# Build output
+
+bin/
+obj/
+out/
+
+# Visual Studio
+
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+
+.vscode/
+
+# Rider / JetBrains
+
+.idea/
+*.sln.iml
+
+# NuGet
+
+packages/
+*.nupkg
+*.snupkg
+
+# Logs
+
+*.log
+
+# Test results
+
+TestResults/
+*.trx
+
+# Code coverage
+
+coverage/
+*.coverage
+*.coveragexml
+
+# ASP.NET Core
+
+appsettings.Development.json
+appsettings.Local.json
+
+# Environment / secrets
+
+.env
+.env.*
+!.env.example
+
+# User-specific / local configuration
+
+*.local.json
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Temporary files
+
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Publish output
+
+publish/
+wwwroot/dist/
+
+# Database files
+
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker
+
+docker-compose.override.yml
+
+# Azure
+
+*.publishsettings
+
+# Generated files
+
+Generated/
+GeneratedCode/
+
+# BenchmarkDotNet
+
+BenchmarkDotNet.Artifacts/
+
+# ReSharper
+
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
