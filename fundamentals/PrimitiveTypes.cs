@@ -9,6 +9,7 @@ public static class PrimitiveTypes
         Console.WriteLine("int32 - 32bit integer 2^n -1 = 2147483647 , -2^n -2147483648 max values");
         Console.WriteLine($"int32Bit min value = {int.MinValue}");
         Console.WriteLine($"int32Bit max value = {int.MaxValue}");
+        Console.WriteLine($"Size of int32 =  {sizeof(int)} Bytes");
 
         byte[] bytes = BitConverter.GetBytes(int32Number);
 
@@ -28,6 +29,7 @@ public static class PrimitiveTypes
 // int32 - 32bit integer 2^n -1 = 2147483647 , -2^n -2147483648 max values
 // int32Bit min value = -2147483648
 // int32Bit max value = 2147483647
+// Size of int32 =  4 Bytes
 // 00000010
 // 00000000
 // 00000000
