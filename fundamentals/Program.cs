@@ -1,33 +1,39 @@
-﻿using System.Net.NetworkInformation;
+﻿// using System.Net.NetworkInformation;
 
-int number = 12;
-string name = "Abdul Haseeb";
-bool isActive = true;
-decimal taxPercentage = 0.12M;
-DateTime currentDate = DateTime.Now;
-
-
-// var
-var someVar = "A Haseeb";
-someVar = "TEST value change";
-// someVar = 23; compile time error (Not Allowed because datatype is decided by the compiler)
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        int number = 12;
+        string name = "Abdul Haseeb";
+        bool isActive = true;
+        decimal taxPercentage = 0.12M;
+        DateTime currentDate = DateTime.Now;
 
 
-// const 
-const double pi = 3.142;
-
-// pi = 123.12; (not allowed because its a constant.)
-
-
-Console.WriteLine(number);
-Console.WriteLine(name);
-Console.WriteLine(isActive);
-Console.WriteLine(taxPercentage);
-Console.WriteLine(currentDate);
-Console.WriteLine(someVar);
-Console.WriteLine(pi);
+        // var
+        var someVar = "A Haseeb";
+        someVar = "TEST value change";
+        // someVar = 23; compile time error (Not Allowed because datatype is decided by the compiler)
 
 
+        // const 
+        const double pi = 3.142;
+
+        // pi = 123.12; (not allowed because its a constant.)
+
+
+        Console.WriteLine(number);
+        Console.WriteLine(name);
+        Console.WriteLine(isActive);
+        Console.WriteLine(taxPercentage);
+        Console.WriteLine(currentDate);
+        Console.WriteLine(someVar);
+        Console.WriteLine(pi);
+
+        // NullableTypes.Run();
+    }
+}
 
 
 // dotnet run
